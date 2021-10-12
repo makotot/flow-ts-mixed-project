@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "flow": "flow"
   },
   "author": "makotot",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "7.15.8",
     "@babel/preset-env": "7.15.8",
+    "@babel/preset-flow": "7.14.5",
     "babel-loader": "8.2.2",
+    "flow-bin": "0.161.0",
     "webpack": "5.58.1",
     "webpack-cli": "4.9.0"
   }

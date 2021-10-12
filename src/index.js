@@ -1,5 +1,5 @@
-console.log('hello')
+import { Foo } from './foo'
 
-class Foo {
-  #bar = 1
-}
+const foo = new Foo()
+
+console.log(foo.init(), foo.baz)
