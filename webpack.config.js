@@ -16,6 +16,12 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-flow'],
+            overrides: [
+              {
+                test: /\.ts$/,
+                presets: ['@babel/preset-env', '@babel/preset-typescript'],
+              },
+            ],
           },
         },
       },
